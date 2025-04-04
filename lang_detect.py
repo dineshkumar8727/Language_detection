@@ -131,7 +131,7 @@ def process_pdfs(input_folder, csv_file, output_dir, num_processes=4):
 # Define paths and run
 input_folder = "/FE_Documents/ISIN/"
 csv_file = "/home/dinesh/vs_works/filename.csv"  # CSV containing filenames
-output_dir = '/home/dinesh/vs_works/lang_server_output'  # Output directory for Excel
+output_dir = '/home/dinesh/vs_works/lang_output'  # Output directory for Excel
 num_processes = 4  # Number of parallel processes
  
 if __name__ == "__main__":
